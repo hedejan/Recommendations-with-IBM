@@ -1,6 +1,6 @@
 # Recommendations-With-IBM-Project
 
-## Building A Recommendation Engine With IBM!
+## Introduction
 
 This project is a part of the Data Scientist Nanodegree by Udacity. It features an important collaboration with IBM, the provider of the dataset. The aim is to develop a recommendation engine and suggest new articles to the IBM Watson Community users.
 
