@@ -22,6 +22,9 @@ The aim of this project is to analyze the interactions that users have with arti
 The repository contains a jupyter notebook (*.ipynb) that has the recommendation system code, an html version of it, a data folder with csv files used for the project and the other files contains test codes.
 
 ## Overview
+The following is a brief of the contents of the project and the methods used to create and optimize a recommendation system:
+
+
 ### I. Exploratory Data Analysis
 Before making recommendations of any kind, we will need to explore the data we are working with for the project. There are some basic, required questions to be answered about the data we are working with throughout the rest of the notebook.
 
