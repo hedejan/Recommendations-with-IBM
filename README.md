@@ -4,6 +4,9 @@
 
 This project is a part of the Data Scientist Nanodegree by Udacity. It features an important collaboration with IBM, the provider of the dataset. The aim is to develop a recommendation engine and suggest new articles to the IBM Watson Community users.
 
+## Project Motivation
+The aim of this project is to analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations of new articles they might like to them.
+
 ## Libraries Used:
 
 * Python 3.9
@@ -14,6 +17,9 @@ This project is a part of the Data Scientist Nanodegree by Udacity. It features 
 * pickle
 * JupyterLab IDE
 * VSCode IDE
+
+## File Descriptions
+The repository contains a jupyter notebook (*.ipynb) that has the recommendation system code, an html version of it, a data folder with csv files used for the project and the other files contains test codes.
 
 ## Overview
 ### I. Exploratory Data Analysis
