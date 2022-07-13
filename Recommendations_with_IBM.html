@@ -17131,7 +17131,9 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Provide your response here.</strong></p>
+<ul>
+<li>I would use get_top_article_ids function to recommend the top ten due to lack of historical data about him. Another recommendation system that could be used is the content-based recommendation using information about the users and items, or knowledge-based recommendation using knowledge about the item or user preferences.</li>
+</ul>
 
 </div>
 </div>
@@ -17679,7 +17681,9 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Provide your response here.</strong></p>
+<ul>
+<li>In real life, SVD doesn’t work so well on data with missing values which is highly expected. That is where Funk SVD comes into play.</li>
+</ul>
 
 </div>
 </div>
@@ -18327,10 +18331,8 @@ jp-needs-light-background
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>Latent features could be more relevant to the train set than the test set. Notice that we have 20 users in common but that could be irrelevant.</li>
-<li>We might combine content-based recommendation with other recommendation methods. We can define categories of each article using information from df_content and combine it with rank-based recommendation, and use it as filter for user-user based collaborative filtering.</li>
-<li>For new users, recomending the most popular k articles could be an improvement.</li>
-<li>Matrix factorization is an offline testing method to evaluate how well a model will perform. Furthermore, we may carry out an A/B testing or use group analysis to get feedback on the performancce of the recommendation system.</li>
+<li>We notice that the accuracy is improving as we add more latent features in the train set in contrast to the test set. This could happen for many reasons such as the latent features could be more relevant to the train set than the test set. Notice that we have 20 users in common but that could be irrelevant.</li>
+<li>Furthermore, we may use an online A/B testing with metrics to measure the performance of different individual or combinations of recommendation systems to decide which one to adopt.</li>
 </ul>
 
 </div>
@@ -18356,12 +18358,12 @@ jp-needs-light-background
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html *.ipynb
@@ -18370,6 +18372,30 @@ jp-needs-light-background
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[NbConvertApp] Converting notebook Recommendations_with_IBM.ipynb to html
+[NbConvertApp] Writing 861533 bytes to Recommendations_with_IBM.html
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
